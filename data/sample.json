@@ -1,0 +1,9 @@
+{
+  "event_id": "092501-005-sample-001",
+  "event_type": "RECORD_REGISTERED",
+  "aggregate_type": "excavation_record",
+  "aggregate_id": "international_exhibition_release-001",
+  "occurred_at": "2026-09-24T10:00:00+08:00",
+  "version": 1,
+  "summary": "登记跨国展览成果释出协调的一条领域事实"
+}
