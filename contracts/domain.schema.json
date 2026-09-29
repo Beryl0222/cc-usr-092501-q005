@@ -20,19 +20,42 @@
       "type": "string",
       "enum": [
         "RECORD_REGISTERED",
+        "OBJECT_REGISTERED",
+        "LOAN_TERMS_REGISTERED",
+        "EMBARGO_REGISTERED",
+        "EMBARGO_EXTENDED",
         "CLAIM_PROPOSED",
+        "CLAIM_CORRECTED",
+        "TRANSLATION_DRAFTED",
+        "TASK_OPENED",
+        "TASK_CLOSED",
+        "DISPUTE_FILED",
+        "DISPUTE_RESOLVED",
         "RELEASE_REQUESTED",
         "BILATERAL_APPROVAL_RECORDED",
-        "PUBLIC_VARIANT_ISSUED"
+        "REQUEST_APPROVED",
+        "REQUEST_REJECTED",
+        "PUBLIC_VARIANT_ISSUED",
+        "PUBLICATION_SUSPENDED",
+        "PUBLICATION_REINSTATED",
+        "PUBLICATION_CORRECTION_LINKED",
+        "OBJECT_WITHDRAWN",
+        "OBJECT_RETURNED"
       ]
     },
     "aggregate_type": {
       "type": "string",
       "enum": [
         "excavation_record",
+        "find_object",
         "research_claim",
+        "translation",
+        "loan_terms",
+        "embargo",
         "release_request",
-        "public_variant"
+        "public_variant",
+        "dispute",
+        "task"
       ]
     },
     "aggregate_id": {
