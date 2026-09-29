@@ -19,20 +19,47 @@
     "event_type": {
       "type": "string",
       "enum": [
+        "UNIT_REGISTERED",
+        "ARTIFACT_REGISTERED",
         "RECORD_REGISTERED",
+        "RECORD_AMENDED",
+        "CONTRIBUTOR_REGISTERED",
+        "LOAN_TERMS_RECORDED",
+        "EMBARGO_SET",
+        "EMBARGO_EXTENDED",
         "CLAIM_PROPOSED",
+        "CLAIM_CORRECTED",
+        "TRANSLATION_SUBMITTED",
+        "TRANSLATION_REVISED",
+        "CARRIER_REGISTERED",
         "RELEASE_REQUESTED",
         "BILATERAL_APPROVAL_RECORDED",
-        "PUBLIC_VARIANT_ISSUED"
+        "RELEASE_APPROVED",
+        "PUBLIC_VARIANT_ISSUED",
+        "VARIANT_CORRECTED",
+        "VARIANT_SUSPENDED",
+        "VARIANT_RESUMED",
+        "ARTIFACT_WITHDRAWN",
+        "ARTIFACT_REINSTATED",
+        "TASK_OPENED",
+        "TASK_RESOLVED"
       ]
     },
     "aggregate_type": {
       "type": "string",
       "enum": [
+        "excavation_unit",
+        "artifact",
         "excavation_record",
+        "contributor",
+        "loan_terms",
+        "embargo",
         "research_claim",
+        "translation",
+        "public_carrier",
         "release_request",
-        "public_variant"
+        "public_variant",
+        "coordination_task"
       ]
     },
     "aggregate_id": {
